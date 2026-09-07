@@ -240,3 +240,47 @@ footer {
     cursor: pointer;
     margin-right: 10px;
 }
+
+/* Tabla de estudiantes */
+
+.tabla-contenedor {
+    overflow-x: auto;
+    margin-top: 25px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background-color: white;
+}
+
+th,
+td {
+    padding: 14px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #24364b;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f5f5f5;
+}
+
+tr:hover {
+    background-color: #eaf3ff;
+}
+
+.mensaje-exito {
+    margin: 20px 0;
+    padding: 12px;
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    border-radius: 6px;
+    text-align: center;
+}
