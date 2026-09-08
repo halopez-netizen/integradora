@@ -284,3 +284,17 @@ tr:hover {
     border-radius: 6px;
     text-align: center;
 }
+
+/* Botón editar */
+.boton.editar {
+    background-color: #3498db;
+}
+
+/* Botón eliminar */
+.boton.eliminar {
+    background-color: #e74c3c;
+}
+
+.boton.eliminar:hover {
+    background-color: #c0392b;
+}

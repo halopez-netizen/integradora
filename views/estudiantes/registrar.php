@@ -38,7 +38,7 @@
                 un nuevo estudiante.
             </p>
 
-            <form id="formularioEstudiante" method="POST">
+            <form id="formularioEstudiante" method="POST" action="../../controllers/EstudianteController.php">
 
                 <div class="campo">
 
